@@ -1,0 +1,141 @@
+:root {
+  font-size: 16px;
+  --card-img-height: 200px;
+}
+
+* {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  font-family: sans-serif; 
+  min-width: 100vh;
+}
+
+
+a {
+  text-decoration: none;
+  color: #172b4d;
+}
+
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 60%;
+  height: 400px;
+  margin-right: 10px;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.carousel-cell .cell-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-cell h2 {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  color: white;
+}
+
+.carousel-cell span {
+  color: white;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  font: bold 24px/45px Halvetica, Sans-Serif;
+  box-decoration-break: clone;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 .2rem;
+}
+
+.separator {
+  width: 100%;
+	height: 1.4rem;
+	border-bottom: 1px solid #DDDEDE;
+	text-align: center;
+  margin-top: 1rem;
+}
+
+.separator span {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+	padding: 0 20px;
+	background-color: white;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.card {
+  align-self: flex-start;
+  position: relative;
+  width: 225px;
+  min-width: 175px;
+  margin: 1.25rem 0.75rem;
+  background: #ebecf0;
+}
+
+.card-img {
+  width: 100%;
+  height: var(--card-img-height);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card-info {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+}
+
+.card-info .card-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+}
+
+.card-info .card-tag {
+  max-width: 100px;
+  padding: .2rem .5rem;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #505f79;
+  color: #ffffff;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  padding-bottom: .75rem;
+  cursor: pointer;
+}
+
+.card-creator {
+  padding-bottom: .75rem;
+}

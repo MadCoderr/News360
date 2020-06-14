@@ -16,4 +16,4 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 - [Flickity](https://flickity.metafizzy.co/) - Awesome library for carousel.
 
 ## How to run
-- You will need a live server or a local host to run it.
+- You will need a local host to run it.
